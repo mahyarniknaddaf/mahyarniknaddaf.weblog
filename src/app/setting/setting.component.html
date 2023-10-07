@@ -1,0 +1,62 @@
+<div class="setting-icon" (click)="settingfunction()">
+    <img src="assets/img/icon/setting.png" alt="setting" class="setting-icon-img">
+</div>
+<div class="setting" *ngIf="settingcheck">
+    <div class="setting-box">
+        <div class="setting-box-result">
+            <div class="setting-box-result-language">language</div>
+            <div class="setting-box-result-theme">theme</div>
+        </div>
+        <hr>
+        <div class="setting-box-language" (click)="settinglanguagefunction()">
+            <img src="assets/img/icon/language.png" alt="language" class="setting-box-language-img">
+            <div class="setting-box-language-txt">Language</div>
+        </div>
+        <div class="setting-box-theme" (click)="settingthemefunction()">
+            <img src="assets/img/icon/theme.png" alt="theme" class="setting-box-theme-img">
+            <div class="setting-box-theme-txt">Theme</div>
+        </div>
+        <div class="setting-box-print" (click)="printfunction()">
+            <img src="assets/img/icon/print.png" alt="print" class="setting-box-print-img">
+            <div class="setting-box-print-txt">Print</div>
+        </div>
+    </div>
+    <div class="setting-result">
+        <div class="setting-result-language" *ngIf="settinglanguagecheck">
+            <div class="setting-result-language-persian">
+                <img src="assets/img/icon/persian.png" alt="persian"
+                    class="setting-result-language-persian-img">
+                <div class="setting-result-language-persian-text">persian</div>
+            </div>
+            <div class="setting-result-language-english">
+                <img src="assets/img/icon/english.png" alt="english"
+                    class="setting-result-language-english-img">
+                <div class="setting-result-language-english-text">english</div>
+            </div>
+            <div class="setting-result-language-germany">
+                <img src="assets/img/icon/germany.png" alt="germany"
+                    class="setting-result-language-germany-img">
+                <div class="setting-result-language-germany-text">germany</div>
+            </div>
+        </div>
+        <div class="setting-result-theme" *ngIf="settingthemecheck">
+            <div class="setting-result-theme-darkmode">
+                <img src="assets/img/icon/darkmode.png" alt="darkmode"
+                    class="setting-result-theme-darkmode-img">
+                <div class="setting-result-theme-darkmode-txt">darkmode</div>
+            </div>
+            <div class="setting-result-theme-darkmode">
+
+                <div class="setting-result-theme-systemmode">
+                    <img src="assets/img/icon/systemmode.png" alt="systemmode"
+                        class="setting-result-theme-systemmode-img">
+                    <div class="setting-result-theme-systemmode-txt">systemmode</div>
+                </div>
+                <div class="setting-result-theme-lightmode">
+                    <img src="assets/img/icon/lightmode.png" alt="lightmode"
+                        class="setting-result-theme-lightmode-img">
+                    <div class="setting-result-theme-lightmode-txt">lightmode</div>
+                </div>
+            </div>
+        </div>
+    </div>

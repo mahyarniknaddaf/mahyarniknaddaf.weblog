@@ -1,0 +1,108 @@
+.setting {
+    text-align: center;
+    color: white;
+}
+
+.setting-icon {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    background-color: black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.setting-icon-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    animation-name:setting-icon-img;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes setting-icon-img {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+/* ***************************************** */
+.setting-box {
+    position: fixed;
+    top: 30%;
+    left: 60px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.setting-box-language,
+.setting-box-theme,
+.setting-box-print,
+.setting-box-result {
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+.setting-box-language-img,
+.setting-box-theme-img,
+.setting-box-print-img,
+.setting-box-result-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+/* ***************************************** */
+.setting-result {}
+
+.setting-result-language {
+    position: fixed;
+    top: 35%;
+    left: 150px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.setting-result-language-persian,
+.setting-result-language-english,
+.setting-result-language-germany {
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+.setting-result-language-persian-img,
+.setting-result-language-english-img,
+.setting-result-language-germany-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.setting-result-theme {
+    position: fixed;
+    top: 32%;
+    left: 150px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.setting-result-theme-darkmode,
+.setting-result-theme-systemmode,
+.setting-result-theme-lightmode {
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+.setting-result-theme-darkmode-img,
+.setting-result-theme-systemmode-img,
+.setting-result-theme-lightmode-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
