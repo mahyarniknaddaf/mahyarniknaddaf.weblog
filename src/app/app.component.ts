@@ -6,7 +6,6 @@ import { Component, HostListener } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'mahyarniknaddaf.weblog';
   loadingcheck: boolean = false;
   @HostListener('window:load', ['$event'])
   onload() {
