@@ -8,11 +8,12 @@
 }
 
 .loading {
+	position: absolute;
+	z-index: 9;
 	display: flex;
 	font: 1em/1.5 sans-serif;
 	height: 100vh;
 	background-color: orangered;
-	position: fixed;
 	left: 0;
 	top: 0;
 	width: 100%;

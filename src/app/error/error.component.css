@@ -2,6 +2,7 @@
 
 .error-box {
     position: fixed;
+    z-index: 8;
     right: 10px;
     bottom: 10px;
     width: 400px;

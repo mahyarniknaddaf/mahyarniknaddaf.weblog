@@ -1,0 +1,39 @@
+.footer {
+    position: fixed;
+    z-index: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: skyblue;
+}
+
+.footer-title {
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.footer-icons {
+    display: flex;
+    text-align: center;
+    text-align: center;
+
+}
+
+.footer-icons-github,
+.footer-icons-email,
+.footer-icons-telegram,
+.footer-icons-instagram{
+}
+
+.footer-icons-github-img,
+.footer-icons-email-img,
+.footer-icons-telegram-img,
+.footer-icons-instagram-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.footer-description {
+    text-align: center;
+}

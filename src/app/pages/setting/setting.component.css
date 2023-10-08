@@ -5,6 +5,7 @@
 
 .setting-icon {
     position: fixed;
+    z-index: 2;
     left: 0;
     top: 50%;
     background-color: black;
@@ -32,6 +33,7 @@
 /* ***************************************** */
 .setting-box {
     position: fixed;
+    z-index: 2;
     top: 30%;
     left: 60px;
     padding: 10px;
@@ -61,6 +63,7 @@
 
 .setting-result-language {
     position: fixed;
+    z-index: 2;
     top: 35%;
     left: 150px;
     padding: 10px;
@@ -85,6 +88,7 @@
 
 .setting-result-theme {
     position: fixed;
+    z-index: 2;
     top: 32%;
     left: 150px;
     padding: 10px;

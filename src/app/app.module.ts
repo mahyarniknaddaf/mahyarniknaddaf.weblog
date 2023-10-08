@@ -8,6 +8,10 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { ErrorComponent } from './error/error.component';
 import { LoadingComponent } from './loading/loading.component';
 import { PagesComponent } from './pages/pages.component';
+import { HeaderComponent } from './pages/header/header.component';
+import { BodyComponent } from './pages/body/body.component';
+import { FooterComponent } from './pages/footer/footer.component';
+import { HomeComponent } from './pages/body/home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { PagesComponent } from './pages/pages.component';
     NotfoundComponent,
     ErrorComponent,
     LoadingComponent,
-    PagesComponent
+    PagesComponent,
+    HeaderComponent,
+    BodyComponent,
+    FooterComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
