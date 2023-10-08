@@ -1,8 +1,11 @@
-<div class="error" id="error">
-    <div class="error-box" id="error-box">
-        <div class="error-box-icon" id="error-box-icon" onclick="closefunction()">
-            <img src="assets/img/icon/close.png" alt="close" class="error-box-icon-img" id="err-box-icon-img">
+<div class="error">
+    <div class="error-box" [style.background-color]="backgroundcolorcheck" *ngIf="errorcheck">
+        <div class="error-box-close" (click)="closefunction()">
+            <img src="assets/img/icon/close.png" alt="close" class="error-box-close-img">
         </div>
-        <div class="error-box-txt" id="error-box-txt"></div>
+        <div class="error-box-icon" (click)="closefunction()">
+            <img src="{{errorboxiconimg}}" alt="icon" class="error-box-icon-img">
+        </div>
+        <div class="error-box-txt">{{errorboxtxt}}</div>
     </div>
 </div>
