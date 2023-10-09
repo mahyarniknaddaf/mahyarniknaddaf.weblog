@@ -5,10 +5,11 @@
     bottom: 0;
     width: 100%;
     height: 100px;
-    background-color: skyblue;
+    background-color: orange;
 }
 
 .footer-title {
+    margin-top: 10px;
     text-align: center;
     letter-spacing: 10px;
 }
@@ -16,15 +17,9 @@
 .footer-icons {
     display: flex;
     text-align: center;
-    text-align: center;
 
 }
 
-.footer-icons-github,
-.footer-icons-email,
-.footer-icons-telegram,
-.footer-icons-instagram{
-}
 
 .footer-icons-github-img,
 .footer-icons-email-img,
@@ -36,4 +31,60 @@
 }
 .footer-description {
     text-align: center;
+}
+
+@media screen and (max-width:576px){
+    .footer-icons {
+     margin-left: 35%;
+    }
+    .footer-icons-github,
+    .footer-icons-email,
+    .footer-icons-telegram,
+    .footer-icons-instagram{
+        margin-left:2% ;
+    }
+}
+@media screen and (min-width:576px){
+    .footer-icons {
+        margin-left: 40%;
+       }
+       .footer-icons-github,
+       .footer-icons-email,
+       .footer-icons-telegram,
+       .footer-icons-instagram{
+           margin-left:2% ;
+       }
+}
+@media screen and (min-width:768px){
+    .footer-icons {
+        margin-left: 40%;
+       }
+       .footer-icons-github,
+       .footer-icons-email,
+       .footer-icons-telegram,
+       .footer-icons-instagram{
+           margin-left:2% ;
+       }
+}
+@media screen and (min-width:992px){
+    .footer-icons {
+        margin-left: 40%;
+       }
+       .footer-icons-github,
+       .footer-icons-email,
+       .footer-icons-telegram,
+       .footer-icons-instagram{
+           margin-left:2% ;
+       }
+}
+@media screen and (min-width:1200px){
+    .footer-icons {
+        margin-left: 45%;
+       }
+       .footer-icons-github,
+       .footer-icons-email,
+       .footer-icons-telegram,
+       .footer-icons-instagram{
+           margin-left:2% ;
+       }
 }

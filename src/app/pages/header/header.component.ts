@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-
+  projectsitems: boolean = false;
+  public projectsitemsfunction() {
+    if (this.projectsitems === false) {
+      this.projectsitems = true;
+    }
+    else {
+      this.projectsitems = false;
+    }
+  }
 }

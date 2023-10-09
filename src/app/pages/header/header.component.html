@@ -1,1 +1,14 @@
-<div class="header"></div>
+<div class="header">
+  <div class="header-box">
+    <div class="header-box-home">home</div>
+    <div class="header-box-projects">
+        <div class="header-box-projects-projects" (click)="projectsitemsfunction()">projects</div>
+        <div class="header-box-projects-items" *ngIf="projectsitems">
+          <div class="header-box-projects-lighting">lighting</div>
+        <div class="header-box-projects-programming">programming</div>
+        </div>
+    </div>
+    <div class="header-box-aboutus">aboutus</div>
+    <div class="header-box-contactus">contactus</div>
+  </div>
+</div>

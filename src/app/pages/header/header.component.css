@@ -1,4 +1,4 @@
-.header{
+.header {
     position: fixed;
     z-index: 0;
     left: 0;
@@ -6,8 +6,103 @@
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    padding:5px;
-    height:30px;
-    background-color: blue;
+    padding: 5px;
+    height: 30px;
+    background-color: orange;
     border-radius: 10px;
+}
+
+.header-box {
+    display: flex;
+
+}
+
+.header-box-home,
+.header-box-projects,
+.header-box-aboutus,
+.header-box-contactus {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.header-box-projects-items {
+    position: fixed;
+    top:65px;
+    margin-left: -30px;
+    background-color: orangered;
+    padding: 5px;
+    text-align: center;
+    border-radius:10px;
+}
+
+.header-box-projects-lighting,
+.header-box-projects-programming {
+    margin: 5px;
+}
+
+
+
+@media screen and (max-width:576px) {
+    .header-box {
+        margin-left: 5%;
+    }
+
+    .header-box-home,
+    .header-box-projects,
+    .header-box-aboutus,
+    .header-box-contactus {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .header-box {
+        margin-left: 20%;
+    }
+
+    .header-box-home,
+    .header-box-projects,
+    .header-box-aboutus,
+    .header-box-contactus {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .header-box {
+        margin-left: 20%;
+    }
+
+    .header-box-home,
+    .header-box-projects,
+    .header-box-aboutus,
+    .header-box-contactus {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .header-box {
+        margin-left: 30%;
+    }
+
+    .header-box-home,
+    .header-box-projects,
+    .header-box-aboutus,
+    .header-box-contactus {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .header-box {
+        margin-left: 30%;
+    }
+
+    .header-box-home,
+    .header-box-projects,
+    .header-box-aboutus,
+    .header-box-contactus {
+        margin-left: 5%;
+    }
 }
